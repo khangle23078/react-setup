@@ -13,11 +13,10 @@
     "preview": "vite preview",
     "prepare": "husky install"
   },
-  "lint": {
+  "lint-staged": {
     "*.{ts,tsx}": [
       "npm run lint",
-      "npm run prettier",
-      "git add ."
+      "npm run prettier"
     ]
   },
   "dependencies": {
